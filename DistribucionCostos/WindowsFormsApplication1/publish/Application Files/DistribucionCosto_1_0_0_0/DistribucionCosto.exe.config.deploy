@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+  </configSections>
+  <connectionStrings>
+    <!--<add name="AplicationConnectionString" connectionString="Data Source=DESKTOP-HA6EJBN\SQLEXPRESS01;Initial Catalog=SAWDB_2;Persist Security Info=True;User ID=FerroUser;Password=Ejgv1301*"
+      providerName="System.Data.SqlClient" />-->
+
+    <add name="AplicationConnectionString" connectionString="Data Source=DESKTOP-HA6EJBN\SQLEXPRESS01;Initial Catalog=SAWDB_2;Integrated Security= SSPI;User ID=Efrain;Password=efrain123456"
+      providerName="System.Data.SqlClient" />
+
+
+    <!--<add name="FerreoConnectionString" connectionString="Data Source=DESKTOP-HA6EJBN\SQLEXPRESS;Initial Catalog=SAWDB;User ID=FerroUser;Password=1234;Integrated Security=False;" providerName="System.Data.SqlClient"/>-->
+
+  </connectionStrings>
+  
+</configuration>
