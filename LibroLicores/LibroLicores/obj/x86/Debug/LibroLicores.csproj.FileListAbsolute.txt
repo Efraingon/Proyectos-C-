@@ -1,0 +1,12 @@
+C:\Negocio\Importadora Iregua\LibroLicores\LibroLicores\bin\Debug\LibroLicores.exe
+C:\Negocio\Importadora Iregua\LibroLicores\LibroLicores\bin\Debug\LibroLicores.pdb
+C:\Negocio\Importadora Iregua\LibroLicores\LibroLicores\obj\x86\Debug\LibroLicores.csprojResolveAssemblyReference.cache
+C:\Negocio\Importadora Iregua\LibroLicores\LibroLicores\obj\x86\Debug\LibroLicores.frmLicores.resources
+C:\Negocio\Importadora Iregua\LibroLicores\LibroLicores\obj\x86\Debug\LibroLicores.Properties.Resources.resources
+C:\Negocio\Importadora Iregua\LibroLicores\LibroLicores\obj\x86\Debug\LibroLicores.csproj.GenerateResource.Cache
+C:\Negocio\Importadora Iregua\LibroLicores\LibroLicores\obj\x86\Debug\LibroLicores.exe
+C:\Negocio\Importadora Iregua\LibroLicores\LibroLicores\obj\x86\Debug\LibroLicores.pdb
+C:\Negocio\Importadora Iregua\LibroLicores\LibroLicores\bin\Debug\LibroLicores.exe.config
+C:\Negocio\Importadora Iregua\LibroLicores\LibroLicores\obj\x86\Debug\LibroLicores.frmInformeLicores.resources
+C:\Negocio\Importadora Iregua\LibroLicores\LibroLicores\obj\x86\Debug\RdlCompile.cache
+C:\Negocio\Importadora Iregua\LibroLicores\LibroLicores\obj\x86\Debug\RdlCompile.compiled
