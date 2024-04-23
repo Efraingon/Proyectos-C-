@@ -1,9 +1,0 @@
-C:\Negocio\CafeProtectora\CafeProtectora\obj\x86\Debug\CafeProtectora.frmComision.resources
-C:\Negocio\CafeProtectora\CafeProtectora\obj\x86\Debug\CafeProtectora.Properties.Resources.resources
-C:\Negocio\CafeProtectora\CafeProtectora\obj\x86\Debug\CafeProtectora.csproj.GenerateResource.Cache
-C:\Negocio\CafeProtectora\CafeProtectora\bin\Debug\CafeProtectora.exe
-C:\Negocio\CafeProtectora\CafeProtectora\bin\Debug\CafeProtectora.pdb
-C:\Negocio\CafeProtectora\CafeProtectora\obj\x86\Debug\CafeProtectora.exe
-C:\Negocio\CafeProtectora\CafeProtectora\obj\x86\Debug\CafeProtectora.pdb
-C:\Negocio\CafeProtectora\CafeProtectora\bin\Debug\CafeProtectora.exe.config
-C:\Negocio\CafeProtectora\CafeProtectora\obj\x86\Debug\CafeProtectora.csprojResolveAssemblyReference.cache
