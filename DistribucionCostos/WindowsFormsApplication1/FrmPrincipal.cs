@@ -33,7 +33,6 @@ namespace DistribucionCosto
 
             string queryString;
             inicializaColumnas(listEmpresa);
-            //queryString = "select * from sawdb.dbo.compania Where Codigo='0043'";
             queryString = "select * from dbo.compania";
 
             using (SqlConnection connection = new SqlConnection(GetConnectionStringByProvider("System.Data.SqlClient",
