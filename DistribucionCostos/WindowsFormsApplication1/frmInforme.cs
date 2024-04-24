@@ -697,7 +697,8 @@ namespace DistribucionCosto
 
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
-            base.OnFormClosing(e);
+            //Cambios para todos los informe para descargar el  memoria
+            base.OnFormClosing(e) ;
             reportViewer1.Dispose();
         }
 
