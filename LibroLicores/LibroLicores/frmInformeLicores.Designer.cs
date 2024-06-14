@@ -30,24 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.TableFacturaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.DataFactura = new LibroLicores.DataFactura();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             ((System.ComponentModel.ISupportInitialize)(this.TableFacturaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataFactura)).BeginInit();
             this.SuspendLayout();
-            // 
-            // reportViewer1
-            // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            reportDataSource1.Name = "DataFactura";
-            reportDataSource1.Value = this.TableFacturaBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "LibroLicores.ReportLibro.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(1163, 510);
-            this.reportViewer1.TabIndex = 0;
             // 
             // TableFacturaBindingSource
             // 
@@ -58,6 +46,18 @@
             // 
             this.DataFactura.DataSetName = "DataFactura";
             this.DataFactura.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // reportViewer1
+            // 
+            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            reportDataSource1.Name = "DataFactura";
+            reportDataSource1.Value = this.TableFacturaBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "LibroLicores.Libro de licores.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.Size = new System.Drawing.Size(1163, 510);
+            this.reportViewer1.TabIndex = 0;
             // 
             // frmInformeLicores
             // 
