@@ -69,6 +69,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Libro de licores.rdlc" />
+    <EmbeddedResource Include="ReportLibroRes.rdlc" />
     <EmbeddedResource Include="frmInformeLicores.resx">
       <DependentUpon>frmInformeLicores.cs</DependentUpon>
     </EmbeddedResource>
