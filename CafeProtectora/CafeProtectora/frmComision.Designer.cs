@@ -46,6 +46,7 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.ClienteDiario = new System.Windows.Forms.ToolStripButton();
             this.CompMenFacLinea = new System.Windows.Forms.ToolStripButton();
+            this.CxCVendedor = new System.Windows.Forms.ToolStripButton();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -200,7 +201,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(219, 632);
+            this.panel2.Size = new System.Drawing.Size(237, 632);
             this.panel2.TabIndex = 106;
             // 
             // toolStrip1
@@ -210,12 +211,13 @@
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(64, 64);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ClienteDiario,
-            this.CompMenFacLinea});
+            this.CompMenFacLinea,
+            this.CxCVendedor});
             this.toolStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow;
             this.toolStrip1.Location = new System.Drawing.Point(0, 18);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.toolStrip1.Size = new System.Drawing.Size(198, 172);
+            this.toolStrip1.Size = new System.Drawing.Size(227, 243);
             this.toolStrip1.Stretch = true;
             this.toolStrip1.TabIndex = 5;
             // 
@@ -224,7 +226,7 @@
             this.ClienteDiario.Image = ((System.Drawing.Image)(resources.GetObject("ClienteDiario.Image")));
             this.ClienteDiario.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ClienteDiario.Name = "ClienteDiario";
-            this.ClienteDiario.Size = new System.Drawing.Size(196, 68);
+            this.ClienteDiario.Size = new System.Drawing.Size(225, 68);
             this.ClienteDiario.Text = "Comisiones Detallada";
             this.ClienteDiario.Click += new System.EventHandler(this.ClienteDiario_Click);
             // 
@@ -233,11 +235,21 @@
             this.CompMenFacLinea.Image = ((System.Drawing.Image)(resources.GetObject("CompMenFacLinea.Image")));
             this.CompMenFacLinea.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.CompMenFacLinea.Name = "CompMenFacLinea";
-            this.CompMenFacLinea.Size = new System.Drawing.Size(196, 68);
+            this.CompMenFacLinea.Size = new System.Drawing.Size(225, 68);
             this.CompMenFacLinea.Text = "Comisiones Resumidas";
             this.CompMenFacLinea.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
             this.CompMenFacLinea.ToolTipText = "Comisiones Resumidas";
             this.CompMenFacLinea.Click += new System.EventHandler(this.CompMenFacLinea_Click);
+            // 
+            // CxCVendedor
+            // 
+            this.CxCVendedor.Image = ((System.Drawing.Image)(resources.GetObject("CxCVendedor.Image")));
+            this.CxCVendedor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.CxCVendedor.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.CxCVendedor.Name = "CxCVendedor";
+            this.CxCVendedor.Size = new System.Drawing.Size(225, 68);
+            this.CxCVendedor.Text = "Cuenta por Cobrar vendedor";
+            this.CxCVendedor.Click += new System.EventHandler(this.CxCVendedor_Click);
             // 
             // frmComision
             // 
@@ -284,5 +296,6 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton ClienteDiario;
         private System.Windows.Forms.ToolStripButton CompMenFacLinea;
+        private System.Windows.Forms.ToolStripButton CxCVendedor;
     }
 }

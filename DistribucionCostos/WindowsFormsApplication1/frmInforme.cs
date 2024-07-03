@@ -638,6 +638,8 @@ namespace DistribucionCosto
             }
             return MontoCambio;
         }
+        
+        
         private decimal sBucarCambioMontoFacturaObserva(string NumeroFactura, string Compania)
         {
             decimal MontoCambio = 0;
